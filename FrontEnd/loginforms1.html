@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="body.css">
+   
+    <title>Music shop</title>
+
+    
+</head>
+<body>
+
+<body background=""C:\Users\DELL\Desktop\frontend\frontend images\Abstract-Music-White-Background.jpg"" width="50" height="200"></body>
+
+    <div class="form-box login">
+    <h2><b>Login</b></h2>
+<div class="input-field">
+    <label for="fname">UserName:</label>
+    <input type="text" class="input" id="username" placeholder="Username" required>
+   
+</div>
+<div class="input-field">
+    <label for="fname">Password:</label>
+    <input type="password" class="input1" id="password" placeholder="password" required>
+    
+</div>
+<div class="input-field">
+    <input  onclick= "validatelogin()" type="submit" type="button" value="Login" class="input">
+</div>
+<div class="bottom">
+    <div class="left">
+        <input type="checkbox" id="check">
+        <label for="check">Remember Me</label>
+    </div>
+    <div class="right">
+        <label><a href="#">Forget password</a></label>
+    </div>
+</div>
+</div>
+<form id="login" action="#"  onclick="validatelogin()" method="post">
+</form>
+<script>
+    function validatelogin()
+    {
+    var username = document.querySelector("#username").value;
+    var password = document.querySelector("#password").value;
+    var username = "Aiswarya";
+    var password = "Aish1906@";
+    if( (username == username && password == password)) {
+        window.open('///C:/Users/DELL/Desktop/frontend/frontendpages.html');
+        alert("You are successfully logged in");
+      }
+      else{
+      alert("Invalid username or password.");
+      return false;
+      }
+  }
+</script>
+    
+
+
+</body>
+</html>

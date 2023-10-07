@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" type = "text/css" href="body.css">
+<img src = "C:\Users\DELL\Documents\3music logo.jpg"  alt="Music Logo" width="10" height="10" class="logo">
+<style>
+
+body{
+background-image: url("https://im.whatshot.in/img/2021/Jul/vaadak-store-cropped-1627468159.jpg");
+}
+
+
+    </style>
+<!-- font awsome -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+ 
+<body>
+ <div class="container">
+        <ul class="nav">
+            <li  style="background-color:powderblue;"><a href="contact us.html">CONTACT</a></li>
+            <li  style="background-color:tomato;"><a href="aboutus.html">ABOUT</a></li>
+            <li  style="background-color:powderblue;"><a href="musicians.html">MUSICIANS</a></li>
+            <li  style="background-color:tomato;"><a href="images.html">IMAGES</a></li>
+            <li  style="background-color:powderblue;"><a href="#">HOME</a></li>
+        </ul>
+    </div>
+ 
+    <div class="content">
+        <div class="left-col">
+            <h1 style="color:rgb(46, 0, 249);">MY <br> MUSIC <br>PLAYER </h1><br>
+<h2 style="color:rgb(223, 2, 2);">The Real <br> Sound of Music <br> Plays Here </h2><br>
+        </div>
+ 
+        <div class="right-col">
+             
+<p  style="background-color:tomato;">Click Here To Listen</p>
+ 
+            <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" id="icon">
+        </div>
+    </div>
+ 
+    <audio id="mysound">
+        <source src="C:\Users\DELL\Documents\twinkle_twinkle_little_star_child_vocal__jeff_iantorno__preview.mp3" type="audio/mp3">
+    </audio>
+ 
+    <script>
+        var mysound = document.getElementById("mysound");
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+        if(mysound.paused){
+         mysound.play();
+        icon.src = "https://img.freepik.com/free-icon/pause_318-825556.jpg";
+               }
+else{
+ mysound.pause();
+ icon.src = "C:\Users\DELL\Documents\play button.png"
+}
+}
+</script>
+
+<div>
+<div>
+<div>
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">Guitar</a></li>
+  	 				<li><a href="#">Piano</a></li>
+  	 				<li><a href="#">Tabala</a></li>
+  	 				<li><a href="#">Violin</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+</div>
+</div>
+
+<div class="music-player">
+</div>
+</body>
+</html>
+
+
+
+
