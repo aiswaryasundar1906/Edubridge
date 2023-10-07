@@ -1,0 +1,15 @@
+Feature: User Login
+
+  Scenario Outline: Valid user login
+    Given the user is on the login page
+    When they enter "<username>" and "<password>"
+    And click the login button
+    Then they should be logged in
+
+Examples:
+
+    | username   | password |
+
+    | rahul@gmail.com | Test@123 |
+
+    | xyz@gmail.com| Testtest |
